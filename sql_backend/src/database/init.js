@@ -1,4 +1,4 @@
-import { db } from "../config/db";
+import { db } from "../config/db.js";
 
 export const initDatabase = async () => {
     const DB_NAME = process.env.DB_NAME || "my_db";
